@@ -2,8 +2,6 @@
 
 namespace SoftBricks\CLI;
 
-include_once __DIR__.'/vendor/autoload.php';
-
 /**
  * Class SetEnv
  * Helps setting params into .EVN files
@@ -116,6 +114,3 @@ class SetEnv extends ConsoleApp
         $this->printSuccess($envFileName . ' updated');
     }
 }
-
-// start console app
-new SetEnv();
