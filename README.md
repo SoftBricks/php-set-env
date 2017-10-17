@@ -12,7 +12,6 @@ After that, it is most practical to create a composer script (within `composer.j
 
 ```JSON
 {
-    // ...
     "scripts": {
         "set-env": [
             "@php vendor/softbricks/php-set-env/SetEnv.php"
