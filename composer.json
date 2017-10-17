@@ -1,0 +1,18 @@
+{
+    "name": "softbricks/php-set-env",
+    "description": "Tool for setting options in .ENV files over the CLI",
+    "require": {
+        "softbricks/php-console-app": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Samuel Menigat",
+            "email": "samuel.menigat@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoftBricks\\CLI\\": ""
+        }
+    }
+}
